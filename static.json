@@ -1,0 +1,12 @@
+{
+    "root": "./",
+    "routes": {
+      "/**": "index.html"
+    },
+    "proxies": {
+        "/xporium/": {
+          "origin": "${REACT_APP_BACKEND_URL}"
+        }
+      }
+  }
+  
