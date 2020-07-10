@@ -59,13 +59,23 @@ export default class cardexchangedonescreen extends React.Component {
                             }}>Exhibitor</Text>
                             <Text style={{
                                 height: 30, color: "#000000"
-                            }}>Name: {this.state.exhibitoruser_data[0]["business_name"]}</Text>
+                            }}>Name: {this.state.exhibitoruser_data[0]["name"]}</Text>
                             <Text style={{
                                 height: 30, color: "#000000"
                             }}>Phone: {this.state.exhibitoruser_data[0]["phone_number"]}</Text>
                             <Text style={{
                                 height: 30, color: "#000000"
                             }}>Email: {this.state.exhibitoruser_data[0]["company_email"]}</Text>
+                            <Text style={{
+                                height: 30, color: "#000000"
+                            }}>Website: {this.state.exhibitoruser_data[0]["company_website"]}</Text>
+                            
+                            <Text style={{
+                                height: 30, color: "#000000"
+                            }}>Address: {this.state.exhibitoruser_data[0]["address1"]}</Text>
+                            <Text style={{
+                                height: 30, color: "#000000"
+                            }}>Location: {this.state.exhibitoruser_data[0]["location"]}</Text>
                             <Text style={{
                                 height: 30, color: "#000000"
                             }}></Text>
@@ -80,6 +90,9 @@ export default class cardexchangedonescreen extends React.Component {
                             <Text style={{
                                 height: 30, color: "#000000"
                             }}>Phone: {this.state.visitoruser_data[0]["phone_number"]}</Text>
+                            <Text style={{
+                                height: 30, color: "#000000"
+                            }}>Designation: {this.state.visitoruser_data[0]["work_as"]}</Text>
                             <Text style={{
                                 height: 30, color: "#000000"
                             }}></Text>
